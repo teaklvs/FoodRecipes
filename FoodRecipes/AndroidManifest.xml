@@ -22,9 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name="com.example.foodrecipes.HowTo"
-            android:label="@string/title_activity_how_to" >
+            android:name="com.example.foodrecipes.HowToCook"
+            android:label="@string/title_activity_how_to_cook"
+            android:parentActivityName="com.example.foodrecipes.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.foodrecipes.MainActivity" />
         </activity>
     </application>
 

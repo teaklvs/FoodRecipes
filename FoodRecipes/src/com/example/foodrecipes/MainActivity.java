@@ -5,7 +5,10 @@ import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-
+	public final static String EXTRA_MESSAGE1 = "com.example.foodrecipes.MESSAGE1";
+	public final static String EXTRA_MESSAGE2 = "com.example.foodrecipes.MESSAGE2";
+	public final static String EXTRA_MESSAGE3 = "com.example.foodrecipes.MESSAGE3";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

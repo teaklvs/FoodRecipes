@@ -1,3 +1,5 @@
+//juyfruyugy
+
 package com.example.foodrecipes;
 
 import android.annotation.SuppressLint;

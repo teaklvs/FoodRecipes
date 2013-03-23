@@ -10,6 +10,7 @@ import android.support.v4.app.NavUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -39,16 +40,28 @@ public class HowToCook extends Activity {
 		// Show the Up button in the action bar.
 		setupActionBar();
 		
+		Button btnPrebaraj = (Button) findViewById(R.id.button1);
+		btnPrebaraj.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				
+				Intent intPrebaraj= new Intent(v.getContext(),PrebarajActivity.class);
+				v.getContext().startActivity(intPrebaraj);
+				
+			}
+		});
+		
 
  
 	}
 
-    public void prebaraj(View view) {
+   /** public void prebaraj(View view) {
     	 Intent i = new Intent(this, newActivity.class);
     	 HowToCook.this.startActivity(i);
 
     }
-    
+    */
 	/**
 	 * Set up the {@link android.app.ActionBar}, if the API is available.
 	 */

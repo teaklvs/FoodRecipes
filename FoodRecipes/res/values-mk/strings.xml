@@ -12,16 +12,16 @@
     <string name="hello_world"/>
     <string name="textView"> </string>
     <string-array name="spinnerarray">
-        <item >select</item>
-        <item >chocolate</item>
-        <item >chocolatecream</item>
-        <item >peanuts</item>
-        <item >coffee</item>
+        <item >избери</item>
+        <item >чоколада</item>
+        <item >чоколаден крем</item>
+        <item >кикирики</item>
+        <item >кафе</item>
     </string-array>
      <string name="select">Select grocery!</string>
-    <string name="chocolate">Brza cokoladna torta</string>
-    <string name="chocolatecream">Palacinki</string>
-    <string name="peanuts">Chocolate Cupcakes and Peanut Butter Icing</string>
-    <string name="coffee">Chocolate Cupcakes and Peanut Butter Icing</string>
-    <string name="btnBackRecipes">Back to Recipes</string>
+    <string name="chocolate">Брза чоколадна торта</string>
+    <string name="chocolatecream">Палачинки</string>
+    <string name="peanuts">Чоколадни мафини и шлаг од путер од кикирики</string>
+    <string name="coffee">Чоколадни мафини и шлаг од путер од кикирики</string>
+    <string name="btnBackRecipes">Дома - Рецепти</string>
 </resources>

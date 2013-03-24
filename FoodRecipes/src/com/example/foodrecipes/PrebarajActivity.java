@@ -72,6 +72,32 @@ public class PrebarajActivity extends Activity {
 			{
 				txtSelected.setText(R.string.coffee);
 			}
+			//za makedonski
+			/* <item >избери</item>
+		        <item >чоколада</item>
+		        <item >чоколаден крем</item>
+		        <item >кикирики</item>
+		        <item >кафе</item>*/
+			else if(str.equalsIgnoreCase("избери"))
+			{
+				txtSelected.setText(R.string.select);				
+			}
+			else if(str.equalsIgnoreCase("чоколада"))
+			{
+				txtSelected.setText(R.string.chocolate);
+			}
+			else if(str.equalsIgnoreCase("чоколаден крем"))
+			{
+				txtSelected.setText(R.string.chocolatecream);
+			}
+			else if(str.equalsIgnoreCase("кикирики"))
+			{
+				txtSelected.setText(R.string.peanuts);
+			}
+			else if(str.equalsIgnoreCase("кафе"))
+			{
+				txtSelected.setText(R.string.coffee);
+			}
 			else
 			{
 				txtSelected.setText("");

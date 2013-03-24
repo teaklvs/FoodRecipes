@@ -19,4 +19,5 @@
     <string name="select">izberete sostojka!</string>
     <string name="eden">ova e recepta sto ja sodrzi odredenata sostojka1</string>
     <string name="dva">ova e recepta sto ja sodrzi odredenata sostojka2</string>
+    <string name="btnBackRecipes">Back to Recipes</string>
 </resources>

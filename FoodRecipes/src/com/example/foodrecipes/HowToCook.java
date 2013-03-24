@@ -42,7 +42,7 @@ public class HowToCook extends Activity {
 		// Show the Up button in the action bar.
 		setupActionBar();
 		
-		Button btnPrebaraj = (Button) findViewById(R.id.button1);
+		Button btnPrebaraj = (Button) findViewById(R.id.btnBack);
 		btnPrebaraj.setOnClickListener(new OnClickListener() {
 			
 			@Override

@@ -1,5 +1,3 @@
-//juyfruyugy
-
 package com.example.foodrecipes;
 
 import android.annotation.SuppressLint;
@@ -14,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class HowToCook extends Activity {
@@ -24,19 +23,63 @@ public class HowToCook extends Activity {
 		super.onCreate(savedInstanceState);
 		// Get the message from the intent
 	    Intent intent = getIntent();
-	    String msg1 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE1);
-	    String msg2 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
-	    String msg3 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE3);
+	    String msg = intent.getStringExtra(MainActivity.EXTRA_MESSAGE4);
+	   // String msg2 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
+	    //String msg3 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE3);
+	    
+	    if(msg=="0")
+	    {
+	 	   TextView txt1=(TextView)findViewById(R.id.textView2);
+		   txt1.setText(R.string.ime0);
+		   TextView txt2=(TextView)findViewById(R.id.textView1);
+		   txt1.setText(R.string.vreme0);
+		   TextView txt3=(TextView)findViewById(R.id.textView3);
+		   txt1.setText(R.string.nacin0);
+		   TextView txt4=(TextView)findViewById(R.id.textView4);
+		   txt1.setText(R.string.sostojki0);
+		   setContentView(R.layout.activity_how_to_cook);
+		   ImageView img1=(ImageView)findViewById(R.id.imageView1);
+		   img1.setImageResource(R.drawable.chocolate_cake);
+		   
+		   
+	    }
+	    else if(msg=="1")
+	    {
+		 	   TextView txt1=(TextView)findViewById(R.id.textView2);
+			   txt1.setText(R.string.ime1);
+			   TextView txt2=(TextView)findViewById(R.id.textView1);
+			   txt1.setText(R.string.vreme1);
+			   TextView txt3=(TextView)findViewById(R.id.textView3);
+			   txt1.setText(R.string.nacin1);
+			   TextView txt4=(TextView)findViewById(R.id.textView4);
+			   txt1.setText(R.string.sostojki1);
+			   setContentView(R.layout.activity_how_to_cook);
+			   ImageView img1=(ImageView)findViewById(R.id.imageView1);
+			   img1.setImageResource(R.drawable.chocolate_lava);    	
+	    }
+	    else if(msg=="2")
+	    {
+		 	   TextView txt1=(TextView)findViewById(R.id.textView2);
+			   txt1.setText(R.string.ime2);
+			   TextView txt2=(TextView)findViewById(R.id.textView1);
+			   txt1.setText(R.string.vreme2);
+			   TextView txt3=(TextView)findViewById(R.id.textView3);
+			   txt1.setText(R.string.nacin2);
+			   TextView txt4=(TextView)findViewById(R.id.textView4);
+			   txt1.setText(R.string.sostojki2);
+			   setContentView(R.layout.activity_how_to_cook);
+			   ImageView img1=(ImageView)findViewById(R.id.imageView1);
+			   img1.setImageResource(R.drawable.cokoladni_kapkejks);
+	    }
 
 
-
-	   TextView txt1=(TextView)findViewById(R.id.textView1);
+	   /*TextView txt1=(TextView)findViewById(R.id.textView1);
 	   txt1.setText(msg1);
 	   TextView txt2=(TextView)findViewById(R.id.textView2);
 	   txt1.setText(msg2);
 	   TextView txt3=(TextView)findViewById(R.id.textView3);
 	   txt1.setText(msg3);
-	   
+	   */
 
 		setContentView(R.layout.activity_how_to_cook);
 		// Show the Up button in the action bar.

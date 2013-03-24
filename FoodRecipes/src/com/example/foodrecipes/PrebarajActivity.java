@@ -36,8 +36,22 @@ public class PrebarajActivity extends Activity {
 		public void onItemSelected(AdapterView<?> parent, View arg1, int pos, long id) {
 			
 			String str = parent.getItemAtPosition(pos).toString();
-			txtSelected.setText(str);
-
+			
+			if(str.equalsIgnoreCase("select"))
+			{
+				txtSelected.setText(R.string.select);				
+			}
+			else if(str.equalsIgnoreCase("eden"))
+			{
+				txtSelected.setText(R.string.eden);
+			}
+			else if(str.equalsIgnoreCase("dva"))
+			{
+				txtSelected.setText(R.string.dva);
+			}else
+			{
+				txtSelected.setText("");
+			}
 		}
 
 		@Override

@@ -12,12 +12,16 @@
     <string name="hello_world"/>
     <string name="textView"> </string>
     <string-array name="spinnerarray">
-        <item >izberi</item>
-        <item >eden</item>
-        <item >dva</item>
+        <item >select</item>
+        <item >chocolate</item>
+        <item >chocolatecream</item>
+        <item >peanuts</item>
+        <item >coffee</item>
     </string-array>
-    <string name="select">izberete sostojka!</string>
-    <string name="eden">ova e recepta sto ja sodrzi odredenata sostojka1</string>
-    <string name="dva">ova e recepta sto ja sodrzi odredenata sostojka2</string>
-    <string name="btnBackRecipes">Doma - Recepti</string>
+     <string name="select">Select grocery!</string>
+    <string name="chocolate">Brza cokoladna torta</string>
+    <string name="chocolatecream">Palacinki</string>
+    <string name="peanuts">Chocolate Cupcakes and Peanut Butter Icing</string>
+    <string name="coffee">Chocolate Cupcakes and Peanut Butter Icing</string>
+    <string name="btnBackRecipes">Back to Recipes</string>
 </resources>

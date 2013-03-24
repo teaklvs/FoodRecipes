@@ -13,11 +13,15 @@
     <string name="textView"> </string>
     <string-array name="spinnerarray">
         <item >select</item>
-        <item >one</item>
-        <item >two</item>
+        <item >chocolate</item>
+        <item >chocolatecream</item>
+        <item >peanuts</item>
+        <item >coffee</item>
     </string-array>
     <string name="select">Select grocery!</string>
-    <string name="eden">This is recipe1</string>
-    <string name="dva">This is recipe2</string>
+    <string name="chocolate">Easy chocolate cake</string>
+    <string name="chocolatecream">Paincakes</string>
+    <string name="peanuts">Chocolate Cupcakes and Peanut Butter Icing</string>
+    <string name="coffee">Chocolate Cupcakes and Peanut Butter Icing</string>
     <string name="btnBackRecipes">Back to Recipes</string>
 </resources>

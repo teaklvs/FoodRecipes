@@ -56,19 +56,28 @@ public class PrebarajActivity extends Activity {
 			{
 				txtSelected.setText(R.string.select);				
 			}
-			else if(str.equalsIgnoreCase("eden"))
+			else if(str.equalsIgnoreCase("chocolate"))
 			{
-				txtSelected.setText(R.string.eden);
+				txtSelected.setText(R.string.chocolate);
 			}
-			else if(str.equalsIgnoreCase("dva"))
+			else if(str.equalsIgnoreCase("chocolatecream"))
 			{
-				txtSelected.setText(R.string.dva);
-			}else
+				txtSelected.setText(R.string.chocolatecream);
+			}
+			else if(str.equalsIgnoreCase("peanuts"))
+			{
+				txtSelected.setText(R.string.peanuts);
+			}
+			else if(str.equalsIgnoreCase("coffee"))
+			{
+				txtSelected.setText(R.string.coffee);
+			}
+			else
 			{
 				txtSelected.setText("");
 			}
 		}
-
+		
 		@Override
 		public void onNothingSelected(AdapterView<?> arg0) {
 			// TODO Auto-generated method stub

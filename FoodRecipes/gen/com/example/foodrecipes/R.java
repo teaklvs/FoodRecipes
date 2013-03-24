@@ -60,12 +60,24 @@ public final class R {
         public static final int coffee=0x7f05000e;
         public static final int hello_world=0x7f050008;
         public static final int ime=0x7f050002;
+        public static final int ime0=0x7f050010;
+        public static final int ime1=0x7f050014;
+        public static final int ime2=0x7f050018;
+        public static final int nacin0=0x7f050013;
+        public static final int nacin1=0x7f050017;
+        public static final int nacin2=0x7f05001b;
         public static final int peanuts=0x7f05000d;
         public static final int recept=0x7f050004;
         public static final int select=0x7f05000a;
+        public static final int sostojki0=0x7f050011;
+        public static final int sostojki1=0x7f050015;
+        public static final int sostojki2=0x7f050019;
         public static final int textView=0x7f050009;
         public static final int title_activity_how_to_cook=0x7f050006;
         public static final int vreme=0x7f050003;
+        public static final int vreme0=0x7f050012;
+        public static final int vreme1=0x7f050016;
+        public static final int vreme2=0x7f05001a;
     }
     public static final class style {
         /** 

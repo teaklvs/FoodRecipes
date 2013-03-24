@@ -24,15 +24,16 @@
     <string name="peanuts">Chocolate Cupcakes and Peanut Butter Icing</string>
     <string name="coffee">Chocolate Cupcakes and Peanut Butter Icing</string>
     <string name="btnBackRecipes">Back to Recipes</string>
-     <string name="ime0">Чоколадна торта</string>
-    <string name="sostojki0">Ingredients:<br>10 јајца </br><br>10 лажици шеќер</br><br>250 гр. ореви подпечени во рерна</br><br>2 штангли чоколада</br><br>2 лажици брашно</br><br>
-    					Фил:</br><br>200 гр. путер</br><br>4 јајца</br><br>2 штангли чоколада</br><br>
-						Глазура:</br><br>100 гр. чоколада</br><br>2 лажици млеко</br><br>1 мало лажиче путер</br></string>
+     <string name="ime0">Easy chocolate cake</string>
+    <string name="sostojki0">Ingredients:<br>For the cake: </br><br>225g/8oz plain flour</br><br>350g/12½oz caster sugar</br><br>85g/3oz cocoa powder</br><br>1½ tsp baking powder</br><br>
+    					1½ tsp bicarbonate of soda:</br><br>2 free-range eggs</br><br>250ml/9fl oz milk</br><br>125ml/4½fl oz vegetable oil</br><br>
+						2 tsp vanilla extract</br><br>250ml/9fl oz boiling water</br><br>For the chocolate icing</br><br>200g/7oz plain chocolate</br><br>200ml/7fl oz double cream</br></string>
 	<string name="vreme0">Total time: 1 hour</string>		
-	<string name="nacin0">Preparation method:<br>Изматете ги жолчките со шеќерoт. Ставете ти оревите кои претхoдно сте ги пoдпекле вo рерна и сте ги сомеле, потоа ставете ја чоколадата растопена и 2 лажици брашно, и на крај снег од изматените белки. 
-	    				Ставете ја тортата во плех специјален за тоа или во тенџере од 3 кгр, кoј сте гo подмачкале со путер и поросиле со брашно. Ставете ја да се пече.</br><br>
-						Фил: Изматете ги жoлчките со шеќерот, додајте растопена чоколада, и на крај белките. Сoединете ја оваа смеса со дoбро изматениoт путер. Тортата исечете ја на 3 дела и филувајте ја. 
-						Одозгора прелејте ја со глазура која се прави вака: Ставете во еден сад чоколада, млекото и путерот растопете ја на oган.</br></string>
+	<string name="nacin0">Preparation method:<br>Preheat the oven to 180C/350F/Gas 4. Grease and line two 20cm/8in sandwich tins.For the cake, place all of the cake ingredients, except the boiling water, into a large mixing bowl. Using a wooden spoon, or electric whisk, beat the mixture until smooth and well combined.
+	    				Add the boiling water to the mixture, a little at a time, until smooth. (The cake mixture will now be very liquid.)Divide the cake batter between the sandwich tins and bake in the oven for 25-35 minutes, or until the top is firm to the touch and a skewer inserted into the centre of the cake comes out clean.
+	    				Remove the cakes from the oven and allow to cool completely, still in their tins, before icing.For the chocolate icing, heat the chocolate and cream in a saucepan over a low heat until the chocolate melts. Remove the pan from the heat and whisk the mixture until smooth, glossy and thickened. Set aside to cool for 1-2 hours, or until thick enough to spread over the cake.
+	    				To assemble the cake, run a round-bladed knife around the inside of the cake tins to loosen the cakes. Carefully remove the cakes from the tins.Spread a little chocolate icing over the top of one of the chocolate cakes, then carefully top with the other cake.
+	    				Transfer the cake to a serving plate and ice the cake all over with the chocolate icing, using a palette knife.</br></string>
 	<string name="ime1">Molten Lava Cakes</string>
 	<string name="sostojki1">Ingredients:<br>6 (1-ounce) squares bittersweet chocolate</br> <br>2 (1-ounce) squares semisweet chocolatek</br><br>10 tablespoons (1 1/4 stick) butter</br><br>1/2 cup all-purpose flour</br><br>1 1/2 cups confectioners' sugar</br><br>
     					3 large eggs</br><br>3 egg yolks</br><br>1 teaspoon vanilla extract</br><br>2 tablespoons orange liqueur</br></string>

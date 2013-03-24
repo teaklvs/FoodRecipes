@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 //import android.widget.AdapterView;
 //import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 public class MainActivity extends Activity {
 	
-
 	public final static String EXTRA_MESSAGE1 = "com.example.foodrecipes.MESSAGE1";
 	public final static String EXTRA_MESSAGE2 = "com.example.foodrecipes.MESSAGE2";
 	public final static String EXTRA_MESSAGE3 = "com.example.foodrecipes.MESSAGE3";
@@ -36,16 +37,51 @@ public class MainActivity extends Activity {
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, android.R.id.text1, values);
 		listView.setAdapter(adapter);
 		
-		//listView.setOnItemSelectedListener(new selectedFunction());
-		
-		
+		listView.setOnItemSelectedListener(new selectedFunction());
 	}
+	
+	public class selectedFunction implements OnItemSelectedListener {
+
+		@Override
+		public void onItemSelected(AdapterView<?> av, View v, int position,long id) 
+		{
+			
+			String selectedNumber = "";
+			if(position==0)
+			{
+				selectedNumber="0";
+			}
+			else if(position==1)
+			{
+				selectedNumber="1";
+			}
+			else if(position==2)
+			{
+				selectedNumber="2";
+			}
+			//ne mozev nikako da ja koregiram greskava !!!
+			//Intent intent = new Intent(this, HowToCook.class);
+			//intent.putExtra(EXTRA_MESSAGE4, selectedNumber);
+			
+			//startActivity(intent);
+			
+		}
+
+		@Override
+		public void onNothingSelected(AdapterView<?> arg0)
+		{
+			// TODO Auto-generated method stub
+
+		}
+
+	}
+
 	
 	public void sendMessage(View view) {
 	    Intent intent = new Intent(this, PrebarajActivity.class);
 	    startActivity(intent);
 	}
 
-	
+
 	
 }

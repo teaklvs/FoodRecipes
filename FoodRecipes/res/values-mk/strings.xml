@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Recipes</string>
+    <string name="app_name">Рецепти</string>
     <string name="action_settings">Settings</string>
     <string name="ime">Torta</string>
     <string name="vreme">Vreme na podgovtovka</string>
     <string name="recept">Nacin na podgotovka</string>
     <string name="Prebaraj">Пребарај по состојка</string>
     <string name="title_activity_how_to_cook">HowToCook</string>
-    <string name="btnSearch">search</string>
+    <string name="btnSearch">пребарај</string>
     <string name="hello_world"/>
     <string name="textView"> </string>
     <string-array name="spinnerarray">

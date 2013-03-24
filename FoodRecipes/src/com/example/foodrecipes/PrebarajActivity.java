@@ -1,13 +1,16 @@
 package com.example.foodrecipes;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemSelectedListener;
 
 public class PrebarajActivity extends Activity {
 	
@@ -20,6 +23,18 @@ public class PrebarajActivity extends Activity {
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_prebaraj);
+		
+		Button backButton = (Button) findViewById(R.id.btnBack);
+		backButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent myInt= new Intent(v.getContext(),MainActivity.class);
+				v.getContext().startActivity(myInt);
+				
+			}
+		});
+		
 		
 		spinner =(Spinner)findViewById(R.id.selSpinner);
 		txtSelected=(TextView)findViewById(R.id.txtSpinner);

@@ -111,6 +111,11 @@ public class PrebarajActivity extends Activity {
 		}
 
 	}
+	
+	public void sendMessage(View view) {
+	    Intent intent = new Intent(this, PrebarajActivity.class);
+	    startActivity(intent);
+	}
 
 
 }

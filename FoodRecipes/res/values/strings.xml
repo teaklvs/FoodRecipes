@@ -10,5 +10,9 @@
     <string name="title_activity_how_to_cook">HowToCook</string>
     <string name="btnSearch">search</string>
     <string name="hello_world"/>
-
+    <string name="textView"> </string>
+    <string-array name="spinnerarray">
+        <item >eden</item>
+        <item >dva</item>
+    </string-array>
 </resources>

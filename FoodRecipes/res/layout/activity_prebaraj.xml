@@ -10,15 +10,16 @@
 
    
     <Spinner 
-  		android:id="@+id/spinner1"
+  		android:id="@+id/selSpinner"
     	android:layout_width="wrap_content"
    		android:layout_height="wrap_content" />
     
     <TextView
+        android:id="@+id/txtSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="@string/hello_world1111" />
+        android:text="textView" />
 
 </RelativeLayout>
 

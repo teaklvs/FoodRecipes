@@ -55,7 +55,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp"
         android:onClick="prebaraj"
-        android:text="@string/Prebaraj" />
+        android:text="@string/btnSearch" />
 
     <TextView
         android:id="@+id/textView4"

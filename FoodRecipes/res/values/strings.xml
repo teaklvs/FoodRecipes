@@ -8,7 +8,7 @@
     <string name="recept">Nacin na podgotovka</string>
     <string name="Prebaraj">Пребарај по состојка</string>
     <string name="title_activity_how_to_cook">HowToCook</string>
-    <string name="btnSearch">search</string>
+    <string name="btnSearch">Search</string>
     <string name="hello_world"/>
     <string name="textView"> </string>
     <string-array name="spinnerarray">
@@ -35,19 +35,16 @@
 	    				To assemble the cake, run a round-bladed knife around the inside of the cake tins to loosen the cakes. Carefully remove the cakes from the tins.Spread a little chocolate icing over the top of one of the chocolate cakes, then carefully top with the other cake.
 	    				Transfer the cake to a serving plate and ice the cake all over with the chocolate icing, using a palette knife.</br></string>
 	<string name="ime1">Molten Lava Cakes</string>
-	<string name="sostojki1">Ingredients:<br>6 (1-ounce) squares bittersweet chocolate</br> <br>2 (1-ounce) squares semisweet chocolatek</br><br>10 tablespoons (1 1/4 stick) butter</br><br>1/2 cup all-purpose flour</br><br>1 1/2 cups confectioners' sugar</br><br>
+	<string name="sostojki1">Ingredients:<br>6 (1-ounce) squares bittersweet chocolate</br> <br>2 (1-ounce) squares semisweet chocolatek</br><br>10 tablespoons (1 1/4 stick) butter</br><br>1/2 cup all-purpose flour</br><br>1 1/2 cups confectioners sugar</br><br>
     					3 large eggs</br><br>3 egg yolks</br><br>1 teaspoon vanilla extract</br><br>2 tablespoons orange liqueur</br></string>
 	<string name="vreme1">Total time: 30 minutes</string>		
 	<string name="nacin1">Preparation method:<br>Preheat oven to 425 degrees F.Grease 6 (6-ounce) custard cups. Melt the chocolates and butter in the microwave, or in a double boiler. Add the flour and sugar to chocolate mixture. 
 	    				Stir in the eggs and yolks until smooth. Stir in the vanilla and orange liqueur. Divide the batter evenly among the custard cups. Place in the oven and bake for 14 minutes. 
 	    				The edges should be firm but the center will be runny. Run a knife around the edges to loosen and invert onto dessert plates.</br></string>
-	<string name="ime2">Чоколадни капкејкс</string>
-	<string name="sostojki2">Ingredients:<br>90 гр. какао</br> <br>170 гр. врела вода</br><br>370 гр. брашно</br><br>1 прашок за пециво</br><br>1 лажичка сода бикарбона</br><br>
-    					1 лажичка сол</br><br>350 гр. шеќер</br><br>4 јајца</br><br>50 гр. маргарин</br><br>
-						200 гр. кисела павлака</br><br>500 гр. слатка павлака</br><br>250 гр. чоколадо за готвење</br></string>
+	<string name="ime2">Chocolate Cupcakes and Peanut Butter Icing</string>
+	<string name="sostojki2">Ingredients:<br>12 tablespoons (1 1/2 sticks) unsalted butter, at room temperature</br> <br>2/3 cup granulated sugar</br><br>2/3 cup light brown sugar, packed</br><br>2 extra-large eggs, at room temperature</br><br>2 tablespoons brewed coffee</br><br>
+    					1 3/4 cups all-purpose flour</br><br>1 cup good cocoa powder</br><br>1 1/2 teaspoons baking soda</br><br>1/2 teaspoon kosher salt</br><br>
+						1 cup buttermilk, shaken, at room temperature</br></string>
 	<string name="vreme2">Total time: 50 minutes</string>		
-	<string name="nacin2">Preparation method:<br>Ставете го магаринот и шеќерот да се растопат на пареа, па откако смесата ќе се растопи тргнете ја од оган и изматете ја со миксер, па оставете ја да се излади 5 минути. Потоа едно по едно додадете ги јајцата, какаото изматено во врела вода и брашното, прашокот за пециво, солта и сода бикарбоната. 
-	    				Изматете за да добиете хомогена смеса. На крај додадете ја киселата павлака и повторно промешајте.
-	    				Со смесата наполнете ги обложените калапи за мафини, ама наполнете само ¾ од калапот. Печете на температура од 180 степени околу 20 минути, па оставете ги мафините да се изладат.
-	    				Загрејте ја малку слатката павлака. Во посебен сад на пареа ставете го чоколадото, па додадете ја загреаната павлака и матете се додека смесата не се истопи. Оставете ја смесата да се излади неколку часа во фрижидер. Со изладениот шлаг украсете ги мафините. </br></string>							
+	<string name="nacin2">Preparation method:<br>Preheat oven to 350 degrees F (175 degrees C). Line a muffin pan with paper or foil liners. Sift together the flour, baking powder, baking soda, cocoa and salt. Set aside.In a large bowl, cream together the butter and sugar until light and fluffy. Add the eggs one at a time, beating well with each addition, then stir in the vanilla. Add the flour mixture alternately with the milk; beat well. Fill the muffin cups 3/4 full.Bake for 15 to 17 minutes in the preheated oven, or until a toothpick inserted into the cake comes out clean. Frost with your favorite frosting when cool.</br></string>						
 </resources>

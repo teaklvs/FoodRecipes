@@ -9,14 +9,15 @@
         android:id="@+id/mylist"
         android:layout_width="match_parent"
         android:layout_height="153dp"
-        tools:listitem="@android:layout/simple_list_item_1" >
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:onClick="onItemSelected" >
     
     </ListView>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="sendMessage"
+        android:onClick="onClick"
         android:text="@string/btnSearch" />
 
 </LinearLayout>

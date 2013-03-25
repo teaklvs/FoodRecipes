@@ -9,6 +9,7 @@
         android:id="@+id/mylist"
         android:layout_width="match_parent"
         android:layout_height="153dp"
+        android:onClick="onItemSelected"
         tools:listitem="@android:layout/simple_list_item_1" >
     
     </ListView>
@@ -16,7 +17,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="sendMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mylist"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="25dp"
+        android:onClick="onClick"
         android:text="@string/btnSearch" />
 
 </RelativeLayout>

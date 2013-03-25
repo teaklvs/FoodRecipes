@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 //import android.view.Menu;
 import android.view.View;
-//import android.widget.AdapterView;
-//import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -45,7 +43,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void onItemSelected(AdapterView<?> av, View v, int position,long id) 
 		{
-			
+			// TODO Auto-generated method stub
 			String selectedNumber = "";
 			if(position==0)
 			{
@@ -59,11 +57,11 @@ public class MainActivity extends Activity {
 			{
 				selectedNumber="2";
 			}
-			//ne mozev nikako da ja koregiram greskava !!!
-			//Intent intent = new Intent(this, HowToCook.class);
-			//intent.putExtra(EXTRA_MESSAGE4, selectedNumber);
 			
-			//startActivity(intent);
+			Intent intent = new Intent(v.getContext(), HowToCook.class);
+			intent.putExtra(EXTRA_MESSAGE4, selectedNumber);
+			
+			v.getContext().startActivity(intent);
 			
 		}
 

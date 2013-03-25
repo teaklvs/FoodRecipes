@@ -19,9 +19,9 @@
         <item >кафе</item>
     </string-array>
     <string-array name="values">
-        <item >Easy chocolate cake</item>
-        <item >Chocolate Cupcakes and Peanut Butter Icing</item>
-        <item >Pancakes</item>
+        <item >Брза чоколадна торта</item>
+        <item >Чоколадни мафини и шлаг од путер од кикирики</item>
+        <item >Палачинки</item>
     </string-array>
      <string name="select">Select grocery!</string>
     <string name="chocolate">Брза чоколадна торта</string>

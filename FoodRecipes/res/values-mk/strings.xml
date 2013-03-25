@@ -18,6 +18,11 @@
         <item >кикирики</item>
         <item >кафе</item>
     </string-array>
+    <string-array name="values">
+        <item >Easy chocolate cake</item>
+        <item >Chocolate Cupcakes and Peanut Butter Icing</item>
+        <item >Pancakes</item>
+    </string-array>
      <string name="select">Select grocery!</string>
     <string name="chocolate">Брза чоколадна торта</string>
     <string name="chocolatecream">Палачинки</string>
